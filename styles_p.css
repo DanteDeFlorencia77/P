@@ -1,0 +1,66 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Cabecera */
+header {
+    background-color: #f2f2f2;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Navegación */
+nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+/* Contenedor principal */
+main {
+    display: flex; /* Usamos flexbox para colocar las secciones en fila */
+    padding: 20px;
+}
+
+/* Sección */
+section {
+    flex: 1; /* Las secciones se expandirán para ocupar el espacio disponible */
+    padding: 20px;
+    border: 1px solid #ddd;
+    margin: 10px;
+}
+
+/* Pie de página */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #f2f2f2;
+}
+aside, h3{
+    text-align:center;
+    background-color:gold;
+}
+/* Estilo para centrar la lista y los puntos de marcado */
+.centro {
+    text-align: center; /* Centra el contenido de la lista */
+    padding-left: 0; /* Elimina el espacio izquierdo predeterminado */
+  }
+  
+  /* Estilo para centrar los elementos de la lista */
+  .centro li {
+    list-style-position: inside; /* Coloca los puntos de marcado dentro del contenido */
+    text-align: center; /* Alinea el texto del elemento a la izquierda */
+  }
+  
+
+
+
+  
