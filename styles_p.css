@@ -57,10 +57,50 @@ aside, h3{
   /* Estilo para centrar los elementos de la lista */
   .centro li {
     list-style-position: inside; /* Coloca los puntos de marcado dentro del contenido */
-    text-align: center; /* Alinea el texto del elemento a la izquierda */
+    text-align: center; /* Alinea el texto del elemento a la izquierda YO LO HE PUESTO AL CENTRO */
   }
   
-
-
-
+/* Establecer el estilo base para la lista desordenada */
+ul.aligned-list {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centra horizontalmente */
+  }
+  
+  /* Estilo para cada elemento de lista */
+  ul.aligned-list li {
+    padding: 5px 10px;
+    border-bottom: 1px solid #ccc;
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+  }
+  
+  /* Estilo para las viñetas */
+  ul.aligned-list li::before {
+    content: "•"; /* Caracter de viñeta */
+    margin-right: 10px; /* Espaciado entre la viñeta y el texto */
+    display: inline-flex; /* Para centrar verticalmente la viñeta */
+    align-items: center; /* Centra verticalmente la viñeta */
+  }
+  
+  
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
   
